@@ -1,4 +1,4 @@
--- 1) INNER JOIN produits ↔ segments
+-- 1) INNER JOIN produits et segments
 -- Récupére pdt_name et pdt_segment
 SELECT
   p.pdt_name,
