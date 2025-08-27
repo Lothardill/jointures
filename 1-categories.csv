@@ -1,0 +1,423 @@
+categories_id,category_1,category_2,category_3
+256,Enfant,Couches écologiques,Culottes de protection 8-20 kg
+259,Enfant,Hygiène Change et Soins,Accessoires Puériculture
+260,Enfant,Hygiène Change et Soins,"Baignoires, jouets de bain"
+263,Enfant,Jouets écologiques,Casques & accessoires Vélos
+264,Enfant,Jouets écologiques,Doudous & Peluches
+265,Enfant,Jouets écologiques,Draisiennes
+266,Enfant,Jouets écologiques,Déguisement et Maquillage
+267,Enfant,Jouets écologiques,Eveil & Découverte
+268,Enfant,Jouets écologiques,"Fermes, animaux & figurines"
+269,Enfant,Jouets écologiques,"Garages, circuits & véhicules"
+271,Enfant,Jouets écologiques,Jeux Educatifs
+272,Enfant,Jouets écologiques,Jeux Plein Air
+273,Enfant,Jouets écologiques,Jeux d'imitation
+274,Enfant,Jouets écologiques,Jeux de construction
+276,Enfant,Jouets écologiques,Jeux de société
+277,Enfant,Jouets écologiques,Jouets 1er âge
+278,Enfant,Jouets écologiques,Jouets musicaux
+280,Enfant,Jouets écologiques,Livres enfants et conteuses
+281,Enfant,Jouets écologiques,Poupées & Maisons de Poupées
+282,Enfant,Jouets écologiques,Puzzles
+283,Enfant,Jouets écologiques,Tableaux & Magnets
+284,Enfant,Jouets écologiques,Vélos Enfant & Tricycles
+287,Enfant,Linge de lit Bébé & Enfant,Drap housse bébé & enfant
+291,Enfant,Loisirs Créatifs,Couture
+294,Enfant,Loisirs Créatifs,Kit d'Empreinte
+296,Enfant,Loisirs Créatifs,Peinture & Coloriage
+297,Enfant,Loisirs Créatifs,Perles et Perles à repasser
+298,Enfant,Loisirs Créatifs,Pâte à Modeler
+302,Enfant,Matelas Bébé & Enfant,Plans inclinés et câles bébé
+304,Enfant,Repas Bébé,Conservation du repas
+305,Enfant,Repas Bébé,Couverts et Vaisselle Bébé
+309,Enfant,Transport enfant,Echarpe & Porte-Bébé
+314,Enfant,Veilleuses & réveils,Veilleuse
+325,Enfant,Vêtements & Accessoires,Protections enfants anti UV
+215,Enfant,Allaitement,Accessoires d'allaitement
+216,Enfant,Allaitement,Coussins d'allaitement
+219,Enfant,Biberons & Accessoires,Accessoires Biberons
+222,Enfant,Biberons & Accessoires,Biberons en Plastique
+223,Enfant,Biberons & Accessoires,Biberons en Verre
+224,Enfant,Biberons & Accessoires,"Chauffe-biberons, stérilisateurs"
+225,Enfant,Biberons & Accessoires,Sucettes et attaches sucettes
+226,Enfant,Biberons & Accessoires,Tasses bébé
+228,Enfant,Biberons & Accessoires,Tétines Biberons
+232,Enfant,Chambre & mobilier enfant,Chaises hautes et réhausseurs
+238,Enfant,Chambre & mobilier enfant,Parcs & Tapis de Jeux
+244,Enfant,Chaussons Bébés et Enfants,Chaussons bébés Garçons
+245,Enfant,Couches écologiques,Accessoires pour le change
+246,Enfant,Couches écologiques,Couches de piscine jetables
+247,Enfant,Couches écologiques,Couches jetables 11-30 kg
+248,Enfant,Couches écologiques,Couches jetables 2-6 kg
+250,Enfant,Couches écologiques,Couches jetables 7-18 kg
+251,Enfant,Couches écologiques,Couches lavables 2-9 kg
+252,Enfant,Couches écologiques,Couches lavables 8-20 kg
+253,Enfant,Couches écologiques,Culottes d'apprentissage 11-18kg
+254,Enfant,Couches écologiques,Culottes d'apprentissage 13-25kg
+768,Maison,Literie,Couette enfant
+770,Maison,Literie,"Matelas bébé, enfant"
+771,Maison,Literie,"Oreiller, traversin"
+773,Maison,Literie,Surmatelas
+775,Maison,Literie et Chambre,Linge de lit
+781,Maison,Livres,Livres Cuisine
+782,Maison,Livres,Livres Entretien
+783,Maison,Livres,Livres Vie saine
+789,Maison,Mobilier d'intérieur,Meubles de rangement
+791,Maison,Mobilier d'intérieur,Mobilier chambre enfant
+792,Maison,Mobilier d'intérieur,Mobilier de bureau
+795,Maison,Mode,Bagagerie
+796,Maison,Mode,Bijoux
+798,Maison,Mode,Chaussures Femme
+801,Maison,Mode,Mode Bébé 0-36 mois
+804,Maison,Mode,Vêtements Femme
+805,Maison,Mode,Vêtements Homme
+806,Maison,Mode,Vêtements de grossesse
+807,Maison,"Mode, chaussures et vêtements",Bagagerie
+812,Maison,"Mode, chaussures et vêtements",Maternité
+815,Maison,"Mode, chaussures et vêtements",Vêtements Femme
+816,Maison,"Mode, chaussures et vêtements",Vêtements Homme
+826,Maison,Salle de bains,Economiseurs douche
+830,Maison,Salle de bains,Rangement salle de bains
+837,Maison,Traitement de l'air,Tests et analyses de l'air
+842,Maison,Ustensiles de cuisine,Autour du vin et de l'apéritif
+843,Maison,Ustensiles de cuisine,Autres accessoires de cuisine
+845,Maison,Ustensiles de cuisine,Balances et verres doseurs
+846,Maison,Ustensiles de cuisine,Couteaux de cuisine
+848,Maison,Ustensiles de cuisine,"Cuillères, spatules, fouets"
+850,Maison,Ustensiles de cuisine,Essoreuses et passoires
+857,Maison,Ustensiles de cuisine,Planches à découper
+859,Maison,Ustensiles de cuisine,Pâtisserie
+860,Maison,Ustensiles de cuisine,"Râpes, Moulins, Mortiers"
+861,Maison,Ustensiles de cuisine,"Râpes, moulins, mortiers"
+864,Maison,Ustensiles de cuisine,Ustensiles de découpe
+643,Maison,Art de la table,Accessoires thé et café
+644,Maison,Art de la table,Assiette
+645,Maison,Art de la table,"Bol, tasse, mug"
+647,Maison,Art de la table,Couverts
+650,Maison,Art de la table,Théière et services à thé
+660,Maison,Carafes filtrantes et Fontaines,Carafes filtrantes
+665,Maison,Carafes filtrantes et Fontaines,Filtres à eau pour robinet
+671,Maison,Conservation,Bocaux et accessoires
+675,Maison,Conservation,Boîtes en verre
+678,Maison,Conservation,Conservation sous vide
+683,Maison,Conservation,Lunch box et boîtes repas
+686,Maison,Conservation,Sacs de conservation
+689,Maison,Cuisson,Casserole
+691,Maison,Cuisson,Cocottes
+692,Maison,Cuisson,"Cocottes, Plats à four"
+697,Maison,Cuisson,Faitout
+699,Maison,Cuisson,Plats à four
+700,Maison,Cuisson,Poêle
+702,Maison,Cuisson,"Sauteuse, Wok"
+706,Maison,Décoration,Bougies
+708,Maison,Décoration,Décorations de Noël
+710,Maison,Décoration,Encens
+711,Maison,Décoration,"Encens, porte encens"
+713,Maison,Décoration,Fontaines d'intérieur
+715,Maison,Décoration,Lampes de sel
+716,Maison,Décoration,Luminaire
+717,Maison,Décoration,Lumières d'ambiance
+720,Maison,Décoration,Porte-encens
+723,Maison,Décoration,Sapin de Noël
+732,Maison,Détecteurs d'ondes,Protection téléphone
+735,Maison,Electroménager,Appareils de cuisine
+736,Maison,Electroménager,Petit déjeuner
+737,Maison,Electroménager,Traitement de l'air
+738,Maison,Entretien,Accessoires ménagers
+739,Maison,Entretien,Anti insectes
+740,Maison,Entretien,Droguerie écologique
+741,Maison,Entretien,Désodorisants
+742,Maison,Entretien,Lessives écologiques
+743,Maison,Entretien,Nettoyants multi-usages
+744,Maison,Entretien,Produits vaisselle
+745,Maison,Entretien,Savon de Marseille
+746,Maison,Entretien,Savon noir ménager
+747,Maison,Entretien,Soin du linge
+750,Maison,Fournitures de bureau,Accessoires de bureau
+752,Maison,Fournitures de bureau,"Cartables, trousses"
+754,Maison,Fournitures de bureau,Ecriture
+755,Maison,Fournitures de bureau,Petites fournitures
+763,Maison,Linge de maison,Linge de bain
+764,Maison,Linge de maison,Linge de lit
+765,Maison,Linge de maison,"Linge de lit bébé, enfant"
+766,Maison,Linge de maison,Linge de table
+767,Maison,Literie,Couette
+137,Boisson,Alcool,Eaux et liqueurs bio
+138,Boisson,Alcool,Spiritueux bio
+140,Boisson,Bière,Bière blanche
+141,Boisson,Bière,Bière blonde
+144,Boisson,Bière,Bière sans gluten
+150,Boisson,Boisson végétale,Boisson au riz
+151,Boisson,Boisson végétale,Boisson au soja
+153,Boisson,Boisson végétale,Boisson à l'amande
+154,Boisson,Boisson végétale,Boisson à l'avoine
+159,Boisson,Café,Café en grains
+160,Boisson,Café,Café moulu
+161,Boisson,Café,Café soluble
+162,Boisson,Café,Capsules compatible Nespresso ®
+163,Boisson,Café,Dosettes compatible Senséo ®
+164,Boisson,Café,"Substituts de café, chicorée"
+169,Boisson,Jus de fruits,Jus de citrons bio
+172,Boisson,Jus de fruits,Jus de pomme pétillant
+176,Boisson,Jus de fruits,Jus de superfruits
+177,Boisson,Jus de fruits,Jus et nectars abricot pêche
+179,Boisson,Jus de fruits,Smoothies bio
+180,Boisson,Jus de grenade,
+187,Boisson,Jus de légumes,Jus multi légumes
+190,Boisson,Sirop,
+191,Boisson,Soda,Boisson gazeuse
+196,Boisson,Thé Glacé,
+197,Boisson,Thé bio,Coffrets de thé
+202,Boisson,Thé bio,Thé noir
+203,Boisson,Thé bio,Thé vert nature
+204,Boisson,Thé bio,Thé vert parfumé
+206,Boisson,"Tisane, Infusion",Tisane ayurvédique
+207,Boisson,"Tisane, Infusion",Tisane de plantes composées
+208,Boisson,"Tisane, Infusion",Tisane plante simple
+212,Boisson,Vin Bio,Vins pétillants
+334,Entretien,Accessoires ménagers,"Eponges, brosses vaisselle"
+384,Entretien,Savon noir ménager,
+553,Extérieur,Animalerie Bio,Alimentation Chats
+554,Extérieur,Animalerie Bio,Alimentation Chiens
+557,Extérieur,Animalerie Bio,Hygiène et soins Animaux
+559,Extérieur,Carrés potagers,
+562,Extérieur,Composteurs,Lombricomposteur
+563,Extérieur,Composteurs,"Poubelle, seau à compost"
+564,Extérieur,Eclairage d'extérieur,Ampoules fluocompactes
+568,Extérieur,Eclairage d'extérieur,Eclairage intérieur
+569,Extérieur,Energie,"Ampoules, prises électriques"
+575,Extérieur,Energie,Piles rechargeables
+576,Extérieur,Gourdes,Gourdes filtrantes
+577,Extérieur,Gourdes,Gourdes isothermes
+578,Extérieur,Gourdes,Gourdes pour enfant
+579,Extérieur,Gourdes,Gourdes pour enfants
+580,Extérieur,Gourdes,Gourdes simple paroi
+582,Extérieur,Graines à semer Bio,Herbes et aromates Bio
+583,Extérieur,Graines à semer Bio,"Légumes feuilles, salades Bio"
+584,Extérieur,Graines à semer Bio,"Légumes fruits, tomates Bio"
+586,Extérieur,Graines à semer Bio,Légumes racines Bio
+588,Extérieur,Jardin,Appareils de mesure
+589,Extérieur,Jardin,Arrosage
+590,Extérieur,Jardin,"Engrais, Traitement du jardin"
+592,Extérieur,Jardin,Potagers d'intérieur et graines
+599,Extérieur,Lumière,Eclairage intérieur
+604,Extérieur,Mobilier d'extérieur,Hamacs et accessoires
+606,Extérieur,"Nature, Activités d'extérieur",Accessoires camping
+611,Extérieur,Peinture et Bricolage,
+612,Extérieur,Peinture et Bricolage,Colles et produits spéciaux
+614,Extérieur,Peinture et Bricolage,Peinture écologique
+615,Extérieur,Peinture et Bricolage,Peinture écologique intérieur
+617,Extérieur,Peinture et Bricolage,Traitement du bois
+619,Extérieur,Sport et Nutrition,Matériel de sport et de yoga
+620,Extérieur,Sport et Nutrition,Protéines et barres protéinées
+626,Extérieur,Transport écologique,Chariots de course
+627,Extérieur,Transport écologique,Remorques vélo
+628,Extérieur,Transport écologique,Rollers et skateboards
+631,Extérieur,Transport écologique,Trottinettes
+393,Epicerie salée,Apéritifs bio,Biscuits apéritif bio
+394,Epicerie salée,Apéritifs bio,Chutney et confit
+395,Epicerie salée,Apéritifs bio,Fruits secs bio apéritif
+397,Epicerie salée,Apéritifs bio,Pâtés végétaux
+398,Epicerie salée,Apéritifs bio,Tartinables
+399,Epicerie salée,"Condiments, vinaigres","Cornichon, câpre et pickle"
+403,Epicerie salée,"Condiments, vinaigres","Vinaigres, vinaigrettes"
+407,Epicerie salée,"Farine, son, fécule",Farine de blé
+408,Epicerie salée,"Farine, son, fécule",Farine de céréales
+411,Epicerie salée,"Farine, son, fécule",Farine de légumineuses
+414,Epicerie salée,"Farine, son, fécule","Préparations pour pain, brioche"
+417,Epicerie salée,Graines et oléagineux,Graines oléagineuses
+418,Epicerie salée,Graines et oléagineux,Graines à germer et mélanges
+426,Epicerie salée,Huiles alimentaires bio,Huile de graines
+430,Epicerie salée,Huiles alimentaires bio,Huile de sésame
+431,Epicerie salée,Huiles alimentaires bio,Huile de tournesol
+432,Epicerie salée,Huiles alimentaires bio,Mélanges d'huiles
+434,Epicerie salée,Légumes et conserves ,Légumes en conserve
+435,Epicerie salée,Légumes et conserves ,Légumes séchés
+438,Epicerie salée,Légumes et conserves ,Soupes bio
+439,Epicerie salée,Légumineuses et céréales,Céréales en grains
+440,Epicerie salée,Légumineuses et céréales,Légumineuses
+443,Epicerie salée,Légumineuses et céréales,"Semoule, Boulgour, Couscous"
+445,Epicerie salée,Pain et biscottes,"Pain, pain précuit"
+447,Epicerie salée,Plats cuisinés,Galettes à cuire et falafel
+448,Epicerie salée,Plats cuisinés,"Plats cuisinés céréales, légumes"
+452,Epicerie salée,"Poisson, viande, pâtés",Produits de la mer
+453,Epicerie salée,"Poisson, viande, pâtés",Terrines de viande et pâtés
+455,Epicerie salée,Pâtes bio,Pâtes Blanches
+456,Epicerie salée,Pâtes bio,Pâtes aux céréales
+457,Epicerie salée,Pâtes bio,Pâtes complètes
+461,Epicerie salée,Riz bio,"Risotto, riz japonais"
+462,Epicerie salée,Riz bio,"Riz Basmati, Thai, Jasmin"
+463,Epicerie salée,Riz bio,Riz cuisson rapide
+469,Epicerie salée,Sauces et coulis,Sauces
+470,Epicerie salée,"Sel, épices, aide culinaire",Bouillons cube
+471,Epicerie salée,"Sel, épices, aide culinaire",Epices
+472,Epicerie salée,"Sel, épices, aide culinaire",Gomasio
+473,Epicerie salée,"Sel, épices, aide culinaire",Herbes et aromates
+476,Epicerie salée,"Sel, épices, aide culinaire",Sels
+514,Epicerie sucrée,Céréales petit déjeuner,Céréale enfant petit déjeuner
+516,Epicerie sucrée,Céréales petit déjeuner,"Flakes, pétales de céréales"
+517,Epicerie sucrée,Céréales petit déjeuner,Flocons de Céréales
+521,Epicerie sucrée,Céréales petit déjeuner,Muesli aux fruits
+523,Epicerie sucrée,Céréales petit déjeuner,Petit déjeuner instantané
+524,Epicerie sucrée,Céréales petit déjeuner,Porridge
+527,Epicerie sucrée,Fruits secs,Fruit sec à coque
+528,Epicerie sucrée,Fruits secs,Fruit séché
+529,Epicerie sucrée,Miel et confiture,Confiture
+530,Epicerie sucrée,Miel et confiture,Miels bio
+531,Epicerie sucrée,Purée de fruits secs,Purée d'amande
+537,Epicerie sucrée,Purée de fruits secs,Purée de sésame
+540,Epicerie sucrée,Pâte à tartiner,Pâte à tartiner chocolat lait
+543,Epicerie sucrée,Pâte à tartiner,Pâte à tartiner sans lait
+544,Epicerie sucrée,Sucre et édulcorant,Sucre
+546,Epicerie sucrée,Tartines et biscottes,Galette riz et céréales
+547,Epicerie sucrée,Tartines et biscottes,"Tartine craquante, biscotte"
+479,Epicerie sucrée,Aide à la pâtisserie,"Décor gâteaux, Colorant"
+482,Epicerie sucrée,Aide à la pâtisserie,Levure et gélifiant
+483,Epicerie sucrée,"Barre de céréales, pâte d'amande","Barre de céréales, fruits"
+486,Epicerie sucrée,"Biscuits, Gâteaux",Biscuit au chocolat
+487,Epicerie sucrée,"Biscuits, Gâteaux",Biscuit aux fruits
+488,Epicerie sucrée,"Biscuits, Gâteaux",Biscuit caramel et vanille
+489,Epicerie sucrée,"Biscuits, Gâteaux",Biscuit fruits secs et céréales
+490,Epicerie sucrée,"Biscuits, Gâteaux",Biscuit nature
+493,Epicerie sucrée,"Biscuits, Gâteaux",Gâteaux
+494,Epicerie sucrée,"Biscuits, Gâteaux",Madeleine et moelleux
+496,Epicerie sucrée,Chocolat bio,Chocolat au lait
+498,Epicerie sucrée,Chocolat bio,Chocolat cru
+499,Epicerie sucrée,Chocolat bio,Chocolat de fêtes
+500,Epicerie sucrée,Chocolat bio,Chocolat noir
+501,Epicerie sucrée,Chocolat bio,Chocolat pâtissier
+502,Epicerie sucrée,Chocolat bio,Truffe et bouchée chocolat
+503,Epicerie sucrée,Compote et dessert,Compote et purée de fruit
+504,Epicerie sucrée,Compote et dessert,Dessert et glace
+505,Epicerie sucrée,Confiserie Bio,Bonbon
+506,Epicerie sucrée,Confiserie Bio,Bonbon vegan
+508,Epicerie sucrée,Confiserie Bio,Chewing-gums
+54,Beauté & Hygiène,Cosmétique maison DIY,Ingrédient de base DIY
+55,Beauté & Hygiène,Cosmétique maison DIY,Kits Cosmétique Maison
+57,Beauté & Hygiène,Cosmétique maison DIY,"Ustensile, contenant DIY"
+58,Beauté & Hygiène,Douche et Bain,Bain moussant et huile
+59,Beauté & Hygiène,Douche et Bain,Brosse et accessoire de bain
+61,Beauté & Hygiène,Douche et Bain,Galets et sels de bain
+62,Beauté & Hygiène,Douche et Bain,Gel douche
+63,Beauté & Hygiène,Douche et Bain,Savon
+64,Beauté & Hygiène,Douche et Bain,Savon liquide
+68,Beauté & Hygiène,Epilation,Soins épilation
+69,Beauté & Hygiène,Hygiène,"Cotons, lingettes démaquillantes"
+71,Beauté & Hygiène,Hygiène,"Couches adultes, incontinence"
+72,Beauté & Hygiène,Hygiène,Coupes menstruelles
+74,Beauté & Hygiène,Hygiène,Déodorants
+78,Beauté & Hygiène,Hygiène,Papier toilette
+79,Beauté & Hygiène,Hygiène,Serviettes et protèges slip
+80,Beauté & Hygiène,Hygiène,Soins dentaires
+82,Beauté & Hygiène,"Hygiène Bébé, soin maternité","Bébé, hygiène et soin"
+83,Beauté & Hygiène,"Hygiène Bébé, soin maternité",Change bébé
+84,Beauté & Hygiène,"Hygiène Bébé, soin maternité","Enfant, hygiène et soin"
+85,Beauté & Hygiène,"Hygiène Bébé, soin maternité",Soins Maternité
+87,Beauté & Hygiène,Maquillage,Le Teint
+88,Beauté & Hygiène,Maquillage,Les Lèvres
+89,Beauté & Hygiène,Maquillage,Les Ongles
+90,Beauté & Hygiène,Maquillage,Les Yeux
+92,Beauté & Hygiène,Soins Homme,Douche
+96,Beauté & Hygiène,Soins Homme,Soins pour la Barbe
+97,Beauté & Hygiène,Soins Homme,Soins pour le rasage
+98,Beauté & Hygiène,Soins Solaires,Après-soleil
+99,Beauté & Hygiène,Soins Solaires,Autobronzants
+101,Beauté & Hygiène,Soins Solaires,Crèmes solaires corps
+105,Beauté & Hygiène,Soins des cheveux,Brosse et peigne
+106,Beauté & Hygiène,Soins des cheveux,Colorations naturelles
+107,Beauté & Hygiène,Soins des cheveux,Gel et crème coiffante
+108,Beauté & Hygiène,Soins des cheveux,Shampoing douche 2 en 1
+109,Beauté & Hygiène,Soins des cheveux,Shampoing par type de cheveux
+112,Beauté & Hygiène,Soins des cheveux,Soins capillaires
+113,Beauté & Hygiène,Soins du corps,Baume et beurre de karité
+116,Beauté & Hygiène,Soins du corps,Gommage
+117,Beauté & Hygiène,Soins du corps,Huiles corps
+118,Beauté & Hygiène,Soins du corps,Laits pour le corps
+119,Beauté & Hygiène,Soins du corps,Minceur et fermeté
+120,Beauté & Hygiène,Soins du corps,Soins mains et ongles
+123,Beauté & Hygiène,Soins du visage,Coffret visage
+124,Beauté & Hygiène,Soins du visage,Démaquillants et nettoyants
+126,Beauté & Hygiène,Soins du visage,"Peaux matures, anti-âge"
+127,Beauté & Hygiène,Soins du visage,Peaux mixtes à grasses
+128,Beauté & Hygiène,Soins du visage,"Peaux normales, soins hydratants"
+129,Beauté & Hygiène,Soins du visage,Peaux sèches et sensibles
+131,Beauté & Hygiène,Soins du visage,Soins contour des yeux
+132,Beauté & Hygiène,Soins du visage,Soins des lèvres
+133,Beauté & Hygiène,Soins à l'Argile,Argile en Vrac
+134,Beauté & Hygiène,Soins à l'Argile,Argile prête à l'emploi
+11,Alimentation Bébé,Desserts lactés bébé,Desserts lactés bébé 4-6 mois
+16,Alimentation Bébé,Goûters & biscuits bio bébé,Goûters bio bébé 8 mois
+18,Alimentation Bébé,Lait infantile bio,Lait de croissance bio
+19,Alimentation Bébé,Lait infantile bio,Lait infantile bio 1er âge
+20,Alimentation Bébé,Lait infantile bio,Lait infantile bio 2ème âge
+22,Alimentation Bébé,Petits pots bébé du midi,Assiettes midi bébé 12 mois
+26,Alimentation Bébé,Petits pots bébé du midi,Petits pots midi 8-12 mois
+28,Alimentation Bébé,Petits pots bébé du midi,Sachet cuisiné bébé 12-15 mois
+30,Alimentation Bébé,Petits pots bébé du soir,Assiettes soir bébé 12 mois
+34,Alimentation Bébé,Petits pots bébé du soir,Petits pots soir 8-12 mois
+35,Alimentation Bébé,Petits pots fruits bébé,
+42,Alimentation Bébé,Petits pots fruits bébé,Petits pots de fruits 4-6 mois
+44,Alimentation Bébé,Petits pots légumes bébé,Petits pots légumes +4 mois
+50,Alimentation Bébé,Préparation végétale bébé,Préparation végétale 2ème âge
+866,Santé & Bien-être,Aromathérapie,Eaux florales
+867,Santé & Bien-être,Aromathérapie,Huiles essentielles alimentaires
+868,Santé & Bien-être,Aromathérapie,Huiles essentielles cosmétiques
+870,Santé & Bien-être,Aromathérapie,Huiles essentielles à diffuser
+871,Santé & Bien-être,Aromathérapie,Huiles végétales cosmétique
+874,Santé & Bien-être,Compléments alimentaires,Articulations
+877,Santé & Bien-être,Compléments alimentaires,"Circulation veineuse, sang"
+878,Santé & Bien-être,Compléments alimentaires,Compléments masculins
+879,Santé & Bien-être,Compléments alimentaires,Curcuma
+880,Santé & Bien-être,Compléments alimentaires,Féminité
+881,Santé & Bien-être,Compléments alimentaires,"Mémoire, concentration"
+882,Santé & Bien-être,Compléments alimentaires,Oméga 3
+883,Santé & Bien-être,Compléments alimentaires,Peaux
+885,Santé & Bien-être,Compléments alimentaires,"Relaxation, sérénité, mémoire"
+887,Santé & Bien-être,Compléments alimentaires,"Stress, sommeil"
+889,Santé & Bien-être,Diffuseurs d'huiles essentielles,Diffuseurs de brume
+891,Santé & Bien-être,Diffuseurs d'huiles essentielles,Diffuseurs par chaleur douce
+892,Santé & Bien-être,Diffuseurs d'huiles essentielles,Diffuseurs par nébulisation
+893,Santé & Bien-être,Diffuseurs d'huiles essentielles,Diffuseurs provençaux
+899,Santé & Bien-être,"Digestion, transit, flore",Elixir du suédois
+900,Santé & Bien-être,"Digestion, transit, flore","Equilibre intestinal, transit"
+901,Santé & Bien-être,"Digestion, transit, flore",Jus et gel d'Aloé
+902,Santé & Bien-être,"Digestion, transit, flore","Probiotiques, flore intestinale"
+903,Santé & Bien-être,"Digestion, transit, flore",Psyllium
+905,Santé & Bien-être,"Fleurs de Bach, Elixirs floraux",Complexes aux Fleurs de Bach
+907,Santé & Bien-être,"Fleurs de Bach, Elixirs floraux",Fleur de Bach unitaire n°1 à 38
+910,Santé & Bien-être,Luminothérapie,Lampes de luminothérapie
+912,Santé & Bien-être,Luminothérapie,Simulateurs d'aube
+914,Santé & Bien-être,"Massage, Kinésithérapie",Accessoires de rééducation
+916,Santé & Bien-être,"Massage, Kinésithérapie",Acupression
+927,Santé & Bien-être,Matériel médical,Cardiofréquencemètres
+929,Santé & Bien-être,Matériel médical,Lampes infrarouge
+932,Santé & Bien-être,Matériel médical,Pèse personne
+933,Santé & Bien-être,Matériel médical,Tensiomètres
+934,Santé & Bien-être,Matériel médical,Thermomètres
+938,Santé & Bien-être,Minceur,Détox minceur
+939,Santé & Bien-être,Minceur,Elimination
+940,Santé & Bien-être,Nez - Gorge - Oreille,Allergies
+941,Santé & Bien-être,Nez - Gorge - Oreille,Gorge irritée
+943,Santé & Bien-être,Nez - Gorge - Oreille,Hygiène du nez
+944,Santé & Bien-être,Nez - Gorge - Oreille,Inhalateur
+946,Santé & Bien-être,Parapharmacie,Anti-tiques visage et corps
+953,Santé & Bien-être,Parapharmacie,"Peau abîmée, bosses et coups"
+956,Santé & Bien-être,"Phytothérapie, gemmothérapie",Extrait de plantes fraîches
+957,Santé & Bien-être,"Phytothérapie, gemmothérapie",Gemmothérapie
+959,Santé & Bien-être,Produits de la ruche,Elixirs de la ruche
+960,Santé & Bien-être,Produits de la ruche,Gelée royale
+961,Santé & Bien-être,Produits de la ruche,Miel de Manuka
+965,Santé & Bien-être,"Relaxation, Détente, Sommeil",Bouillottes
+966,Santé & Bien-être,"Relaxation, Détente, Sommeil",Ceintures chauffantes
+967,Santé & Bien-être,"Relaxation, Détente, Sommeil","Chauffe matelas, Couvertures"
+968,Santé & Bien-être,"Relaxation, Détente, Sommeil",Compresses thermothérapie
+975,Santé & Bien-être,Résistance et vitalité,Anti-oxydant
+976,Santé & Bien-être,Résistance et vitalité,"Citrobiotic, pépins pamplemousse"
+977,Santé & Bien-être,Résistance et vitalité,"Energie, Vitalité, Tonus"
+978,Santé & Bien-être,Résistance et vitalité,"Jus d'herbe, Green Magma"
+979,Santé & Bien-être,Résistance et vitalité,"Refroidissement, défenses"
+980,Santé & Bien-être,Résistance et vitalité,Spiruline
+981,Santé & Bien-être,"Vitamines, minéraux","Acérola, Vitamine C"
+984,Santé & Bien-être,"Vitamines, minéraux","Magnésium, Potassium"
+985,Santé & Bien-être,"Vitamines, minéraux",Multivitamines
+989,Santé & Bien-être,"Vitamines, minéraux",Vitamine B12
