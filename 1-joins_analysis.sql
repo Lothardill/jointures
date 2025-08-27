@@ -1,5 +1,5 @@
 -- 1) INNER JOIN produits ↔ segments
--- Objectif : récupérer pdt_name et pdt_segment
+-- Récupére pdt_name et pdt_segment
 SELECT
   p.pdt_name,
   sgt.pdt_segment
@@ -9,7 +9,7 @@ INNER JOIN catalog.products_segments AS sgt
 
 
 -- 2) INNER JOIN produits ↔ stock
--- Objectif : ajouter les infos de stock aux détails produit
+-- Ajoute les infos de stock aux détails produit
 SELECT
   -- product
   p.products_id,
@@ -26,7 +26,7 @@ INNER JOIN catalog.stocks AS st
 
 
 -- 3) LEFT JOIN produits ↔ promotions
--- Objectif : garder tous les produits même sans promotion
+-- Garde tous les produits même sans promotion
 SELECT
   p.products_id,
   p.pdt_name,
@@ -38,7 +38,7 @@ LEFT JOIN catalog.promotions AS pr
 
 
 -- 4) INNER JOIN produits ↔ prix (USING si clé identique)
--- Objectif : ajouter les infos de prix
+-- Ajoute les infos de prix
 SELECT
   p.products_id,
   p.pdt_name,
@@ -53,7 +53,7 @@ INNER JOIN catalog.prices AS prc
 
 
 -- 5) INNER JOIN produits ↔ catégories (USING si clé identique)
--- Objectif : récupérer l’arborescence catégorie
+-- Récupére l’arborescence catégorie
 SELECT
   p.products_id,
   p.pdt_name,
@@ -67,7 +67,7 @@ INNER JOIN catalog.categories AS c
 
 
 -- 6) LEFT JOIN produits ↔ ventes 3 derniers mois
--- Objectif : inclure tous les produits, qty=0 si aucune vente
+-- Inclut tous les produits, qty=0 si aucune vente
 SELECT
   p.products_id,
   p.pdt_name,
