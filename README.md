@@ -11,7 +11,7 @@ Fichiers :
 - `1-basic_queries.sql` : requêtes sur les clients (sélection, filtres, création de colonnes, panier moyen).
 - `1-products.csv`, `1-products_segments.csv`, `1-promotions.csv`, `1-prices.csv`, `1-stocks.csv`, `1-categories.csv`, `1-sales_last3months.csv` : datasets.
 
-## Partie 5 – Tests de qualité des données
+## Partie 2 – Tests de qualité des données
 
 Objectif : mettre en place des tests SQL pour valider l’intégrité des tables (clés primaires, valeurs NULL, cohérence des indicateurs).
 
