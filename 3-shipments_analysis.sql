@@ -1,6 +1,36 @@
--- 1) COLIS ENRICHIS → 3-shipments_overview.csv
---    Ajoute statut + temps (jours) + mois d’achat + flag retard
-WITH base AS (
+- 0) Normalisation des dates depuis les CSV bruts (formats mixtes)
+
+WITH shipments_parsed AS (
+  SELECT
+    parcel_id,
+    parcel_tracking,
+    transporter,
+    priority,
+    -- Normalisation (YYYY-MM-DD / DD/MM/YYYY / "Month DD, YYYY")
+    COALESCE(
+      SAFE.PARSE_DATE('%Y-%m-%d', date_purchase),
+      SAFE.PARSE_DATE('%d/%m/%Y', date_purchase),
+      SAFE.PARSE_DATE('%B %e, %Y', date_purchase)
+    ) AS date_purchase,
+    COALESCE(
+      SAFE.PARSE_DATE('%Y-%m-%d', date_shipping),
+      SAFE.PARSE_DATE('%d/%m/%Y', date_shipping),
+      SAFE.PARSE_DATE('%B %e, %Y', date_shipping)
+    ) AS date_shipping,
+    COALESCE(
+      SAFE.PARSE_DATE('%Y-%m-%d', date_delivery),
+      SAFE.PARSE_DATE('%d/%m/%Y', date_delivery),
+      SAFE.PARSE_DATE('%B %e, %Y', date_delivery)
+    ) AS date_delivery,
+    COALESCE(
+      SAFE.PARSE_DATE('%Y-%m-%d', date_cancelled),
+      SAFE.PARSE_DATE('%d/%m/%Y', date_cancelled),
+      SAFE.PARSE_DATE('%B %e, %Y', date_cancelled)
+    ) AS date_cancelled
+  FROM logistics.shipments_raw
+),
+
+shipments_enriched AS (
   SELECT
     parcel_id,
     parcel_tracking,
@@ -9,162 +39,92 @@ WITH base AS (
     date_purchase,
     date_shipping,
     date_delivery,
-    date_cancelled
-  FROM logistics.shipments
-)
-SELECT
-  parcel_id,
-  parcel_tracking,
-  transporter,
-  priority,
-  date_purchase,
-  date_shipping,
-  date_delivery,
-  date_cancelled,
+    date_cancelled,
 
-  -- Mois d’achat (numérique 1...12)
-  EXTRACT(MONTH FROM date_purchase) AS month_purchase,
+    EXTRACT(MONTH FROM date_purchase) AS month_purchase,
 
-  -- Statut
-  CASE
-    WHEN date_cancelled IS NOT NULL THEN 'Cancelled'
-    WHEN date_shipping  IS NULL     THEN 'In Progress'
-    WHEN date_delivery  IS NULL     THEN 'In Transit'
-    ELSE 'Delivered'
-  END AS status,
+    CASE
+      WHEN date_cancelled IS NOT NULL THEN 'Cancelled'
+      WHEN date_shipping  IS NULL     THEN 'In Progress'
+      WHEN date_delivery  IS NULL     THEN 'In Transit'
+      ELSE 'Delivered'
+    END AS status,
 
-  -- KPI temps (en jours)
-  DATE_DIFF(date_shipping, date_purchase, DAY) AS shipping_time,
-  DATE_DIFF(date_delivery, date_shipping, DAY) AS delivery_time,
-  DATE_DIFF(date_delivery, date_purchase, DAY) AS total_time,
-
-  -- Retard (> 5 jours entre achat et livraison). NULL si pas livré.
-  CASE
-    WHEN date_delivery IS NULL THEN NULL
-    WHEN DATE_DIFF(date_delivery, date_purchase, DAY) > 5 THEN 1
-    ELSE 0
-  END AS delay
-FROM base
-ORDER BY parcel_id;
-
--- 2) AGRÉGATS GLOBAUX → 3-shipments_overview.csv
-
-WITH enriched AS (
-  SELECT
-    parcel_id,
     DATE_DIFF(date_shipping, date_purchase, DAY) AS shipping_time,
     DATE_DIFF(date_delivery, date_shipping, DAY) AS delivery_time,
     DATE_DIFF(date_delivery, date_purchase, DAY) AS total_time,
+
     CASE
       WHEN date_delivery IS NULL THEN NULL
       WHEN DATE_DIFF(date_delivery, date_purchase, DAY) > 5 THEN 1
       ELSE 0
     END AS delay
-  FROM logistics.shipments
+  FROM shipments_parsed
+),
+
+shipments_products AS (
+  SELECT
+    parcel_id,
+    model_name,
+    qty
+  FROM logistics.shipments_products_raw
 )
+
+
+-- 1) Enrichissement du csv colis → 3-shipments_enriched.csv
+
+SELECT * FROM shipments_enriched
+ORDER BY parcel_id;
+
+-- 2) Statistiques globales → 3-shipments_overview.csv
+
 SELECT
   COUNT(*)                                           AS nb_parcel,
   ROUND(AVG(shipping_time), 2)                       AS shipping_time,
   ROUND(AVG(delivery_time), 2)                       AS delivery_time,
   ROUND(AVG(total_time),   2)                        AS total_time,
   ROUND(AVG(CAST(delay AS FLOAT64)), 2)              AS delay_rate
-FROM enriched;
+FROM shipments_enriched;
 
--- 3) AGRÉGATS PAR TRANSPORTEUR → 3-shipments_by_carrier.csv
+-- 3)Par transporteur OUT → 3-shipments_by_carrier.csv
 
-WITH enriched AS (
-  SELECT
-    parcel_id,
-    transporter,
-    DATE_DIFF(date_shipping, date_purchase, DAY) AS shipping_time,
-    DATE_DIFF(date_delivery, date_shipping, DAY) AS delivery_time,
-    DATE_DIFF(date_delivery, date_purchase, DAY) AS total_time,
-    CASE
-      WHEN date_delivery IS NULL THEN NULL
-      WHEN DATE_DIFF(date_delivery, date_purchase, DAY) > 5 THEN 1
-      ELSE 0
-    END AS delay
-  FROM logistics.shipments
-)
 SELECT
   transporter,
-  COUNT(*)                                          AS nb_parcel,
-  ROUND(AVG(shipping_time), 2)                      AS shipping_time,
-  ROUND(AVG(delivery_time), 2)                      AS delivery_time,
-  ROUND(AVG(total_time),   2)                       AS total_time,
-  ROUND(AVG(CAST(delay AS FLOAT64)), 2)             AS delay_rate
-FROM enriched
+  COUNT(*)                     AS nb_parcel,
+  ROUND(AVG(shipping_time), 2) AS shipping_time,
+  ROUND(AVG(delivery_time), 2) AS delivery_time,
+  ROUND(AVG(total_time),   2)  AS total_time,
+  ROUND(AVG(CAST(delay AS FLOAT64)), 2) AS delay_rate
+FROM shipments_enriched
 GROUP BY transporter
 ORDER BY transporter;
 
--- 4) AGRÉGATS PAR PRIORITÉ → 3-shipments_by_priority.csv
+-- 4) Par priorité → 3-shipments_by_priority.csv
 
-WITH enriched AS (
-  SELECT
-    parcel_id,
-    priority,
-    DATE_DIFF(date_shipping, date_purchase, DAY) AS shipping_time,
-    DATE_DIFF(date_delivery, date_shipping, DAY) AS delivery_time,
-    DATE_DIFF(date_delivery, date_purchase, DAY) AS total_time,
-    CASE
-      WHEN date_delivery IS NULL THEN NULL
-      WHEN DATE_DIFF(date_delivery, date_purchase, DAY) > 5 THEN 1
-      ELSE 0
-    END AS delay
-  FROM logistics.shipments
-)
 SELECT
   priority,
-  COUNT(*)                                          AS nb_parcel,
-  ROUND(AVG(shipping_time), 2)                      AS shipping_time,
-  ROUND(AVG(delivery_time), 2)                      AS delivery_time,
-  ROUND(AVG(total_time),   2)                       AS total_time,
-  ROUND(AVG(CAST(delay AS FLOAT64)), 2)             AS delay_rate
-FROM enriched
+  COUNT(*)                     AS nb_parcel,
+  ROUND(AVG(shipping_time), 2) AS shipping_time,
+  ROUND(AVG(delivery_time), 2) AS delivery_time,
+  ROUND(AVG(total_time),   2)  AS total_time,
+  ROUND(AVG(CAST(delay AS FLOAT64)), 2) AS delay_rate
+FROM shipments_enriched
 GROUP BY priority
 ORDER BY priority;
 
--- 5) AGRÉGATS PAR MOIS D’ACHAT → 3-shipments_by_month.csv
+-- 5) Par mois d’achat → 3-shipments_by_month.csv
 
-WITH enriched AS (
-  SELECT
-    EXTRACT(MONTH FROM date_purchase) AS month_purchase,
-    DATE_DIFF(date_shipping, date_purchase, DAY) AS shipping_time,
-    DATE_DIFF(date_delivery, date_shipping, DAY) AS delivery_time,
-    DATE_DIFF(date_delivery, date_purchase, DAY) AS total_time
-  FROM logistics.shipments
-)
 SELECT
   month_purchase,
   COUNT(*)                     AS nb_parcel,
   ROUND(AVG(shipping_time), 2) AS shipping_time,
   ROUND(AVG(delivery_time), 2) AS delivery_time,
   ROUND(AVG(total_time),   2)  AS total_time
-FROM enriched
+FROM shipments_enriched
 GROUP BY month_purchase
 ORDER BY month_purchase;
 
--- 6) COLIS + PRODUITS 
---    (niveau ligne-produit dans le colis)
-
-SELECT
-  s.parcel_id,
-  s.parcel_tracking,
-  s.transporter,
-  s.priority,
-  s.date_purchase,
-  s.date_shipping,
-  s.date_delivery,
-  s.date_cancelled,
-  p.model_name,
-  p.qty
-FROM logistics.shipments AS s
-LEFT JOIN logistics.shipments_products AS p
-  USING (parcel_id)
-ORDER BY s.parcel_id;
-
--- 7) FOCUS RETARDS → 3-shipments_delays.csv
---    Tous les colis livrés avec total_time > 5 jours
+-- 6) colis livrés en retard > 5j OUT → 3-shipments_delays.csv)
 
 SELECT
   parcel_id,
@@ -174,9 +134,27 @@ SELECT
   date_purchase,
   date_shipping,
   date_delivery,
-  DATE_DIFF(date_delivery, date_purchase, DAY) AS total_time,
+  total_time,
   1 AS delay
-FROM logistics.shipments
+FROM shipments_enriched
 WHERE date_delivery IS NOT NULL
-  AND DATE_DIFF(date_delivery, date_purchase, DAY) > 5
+  AND total_time > 5
 ORDER BY total_time DESC;
+
+-- 7) jointure colis + produits → 3-shipments_with_products.csv
+
+SELECT
+  e.parcel_id,
+  e.parcel_tracking,
+  e.transporter,
+  e.priority,
+  e.date_purchase,
+  e.date_shipping,
+  e.date_delivery,
+  e.date_cancelled,
+  p.model_name,
+  p.qty
+FROM shipments_enriched AS e
+LEFT JOIN shipments_products AS p
+  USING (parcel_id)
+ORDER BY e.parcel_id;
