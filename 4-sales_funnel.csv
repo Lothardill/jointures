@@ -1,0 +1,190 @@
+company,sector,date_lead,date_opportunity,date_customer,date_lost,priority
+Bicycle Store,Wholesale,24/05/2022,04/06/2022,,19/06/2022,High
+Climb,Gym,28/05/2022,17/06/2022,,20/06/2022,High
+Animo,Gym,23/05/2022,23/05/2022,,01/06/2022,High
+Dancefloor,Gym,30/05/2022,15/06/2022,,21/06/2022,High
+Automne,Wholesale,24/05/2022,31/05/2022,08/06/2022,,High
+Belleville,Wholesale,24/05/2022,27/05/2022,31/05/2022,,High
+Altermundi Groupe,Wholesale,22/05/2022,08/06/2022,,08/06/2022,High
+24SF,E-Commerce,20/05/2022,11/06/2022,,22/06/2022,High
+24ST,E-Commerce,21/05/2022,21/05/2022,,23/05/2022,Medium
+Equino,Gym,01/06/2022,07/06/2022,,20/06/2022,High
+BlissSport,E-Commerce,25/05/2022,12/06/2022,,17/06/2022,High
+Flame,Gym,02/06/2022,03/06/2022,,17/06/2022,High
+Fusion ,Gym,09/06/2022,11/06/2022,,19/06/2022,High
+Gymate,Gym,09/06/2022,03/07/2022,,13/07/2022,High
+Humble,Gym,11/06/2022,30/06/2022,,08/07/2022,High
+Dream,E-Commerce,31/05/2022,12/06/2022,27/06/2022,,High
+Small,E-Commerce,10/07/2022,14/07/2022,,22/07/2022,Low
+Nomade Studio Carnac,Gym,23/06/2022,06/07/2022,,19/07/2022,High
+Marseille Club,Gym,21/06/2022,09/07/2022,,21/07/2022,High
+Urban Runner,Gym,20/07/2022,27/07/2022,,29/07/2022,High
+SNAP,Gym,12/07/2022,26/07/2022,,06/08/2022,High
+Sareno,E-Commerce,09/07/2022,01/08/2022,,02/08/2022,Low
+Journey,Gym,09/08/2022,01/09/2022,,08/09/2022,High
+Hardloopee,E-Commerce,11/06/2022,13/06/2022,17/06/2022,,High
+Intersport,Wholesale,11/08/2022,27/08/2022,,10/09/2022,High
+Citadelle,Wholesale,25/05/2022,,,14/06/2022,Medium
+Club Moli,Gym,22/06/2022,12/07/2022,,,Medium
+Crazy Running,Wholesale,28/05/2022,,,18/06/2022,High
+Crazy Running,Wholesale,28/05/2022,,,18/06/2022,High
+Nauti,Gym,22/06/2022,09/07/2022,21/07/2022,,High
+SheActive,Gym,23/06/2022,01/07/2022,,,Medium
+Concept B Pilates,Wholesale,23/06/2022,26/06/2022,,,High
+Shinsegae,Wholesale,24/06/2022,04/07/2022,,,High
+Oral,Gym,28/06/2022,14/07/2022,20/07/2022,,High
+Decathlon,Wholesale,30/05/2022,,,23/06/2022,High
+Distance Running,Wholesale,30/05/2022,,,05/06/2022,Low
+Fleux,Wholesale,02/06/2022,,,28/06/2022,Low
+Place des Tendance,E-Commerce,30/06/2022,09/07/2022,14/07/2022,,Low
+Pullma,Corporate,02/07/2022,15/07/2022,24/07/2022,,High
+Riveren,Wholesale,03/07/2022,19/07/2022,25/07/2022,,High
+Four Nation,Corporate,03/06/2022,,,27/06/2022,High
+Gingko Yoga Studio,Wholesale,06/07/2022,22/07/2022,,,High
+Meudon Running,Wholesale,21/06/2022,,,25/06/2022,Medium
+Soba Lesquin,Wholesale,07/07/2022,19/07/2022,,,Medium
+Mirovia,Corporate,22/06/2022,,,21/07/2022,High
+Good Hoody,Wholesale,10/07/2022,,,,Medium
+Groupe Chalhoub,Wholesale,10/07/2022,,,,High
+Paris Run Zoo,Corporate,29/06/2022,,,16/07/2022,Low
+Passion,Wholesale,29/06/2022,,,03/07/2022,High
+Selfridget,Wholesale,11/07/2022,,,,High
+Set & Steack,Wholesale,11/07/2022,21/07/2022,31/07/2022,,Medium
+Alliances,Corporate,11/07/2022,,,,Low
+Yin National,E-Commerce,11/07/2022,,,,High
+Hamilius,Wholesale,12/07/2022,,,,Medium
+Hunting,E-Commerce,12/07/2022,,,,Medium
+Puigi,Corporate,30/06/2022,,,30/06/2022,Medium
+Royal Cheese,Wholesale,05/07/2022,,,12/07/2022,High
+Shinzou Running,Wholesale,13/07/2022,,,,Medium
+Snow,E-Commerce,13/07/2022,,,,High
+Centre Ville,Wholesale,13/07/2022,,,,Medium
+Chelsea Club,Gym,13/07/2022,,,,Low
+Crédit Agriculture,Corporate,14/07/2022,,,,Low
+Ekosport,E-Commerce,14/07/2022,14/07/2022,16/07/2022,,Medium
+Running Nice,Wholesale,14/07/2022,01/08/2022,13/08/2022,,High
+Farfetch,E-Commerce,14/07/2022,,,,Low
+Frans Booni,E-Commerce,15/07/2022,,,,Medium
+Running Tours,Wholesale,15/07/2022,,,,High
+Running Versailles,Corporate,16/07/2022,,,,High
+Fred Segia,E-Commerce,16/07/2022,,,,Medium
+Salty Days,Wholesale,16/07/2022,,,,High
+Gagou,Wholesale,16/07/2022,,,,Medium
+I Running,E-Commerce,17/07/2022,,,,High
+Run Store,Wholesale,06/07/2022,,,24/07/2022,Medium
+Snow premium,E-Commerce,18/07/2022,,,,High
+Chullan,Wholesale,18/07/2022,,,,High
+Icons,E-Commerce,18/07/2022,29/07/2022,,,Medium
+Smetsi,Wholesale,10/07/2022,,,12/07/2022,High
+Soho House,Gym,19/07/2022,31/07/2022,,,Medium
+INSECTI,Corporate,19/07/2022,,,,Low
+Spode,Wholesale,12/07/2022,,,12/07/2022,High
+Sanna Conscious Concept,Wholesale,20/07/2022,,,,Medium
+SNSR,Wholesale,20/07/2022,,,,Low
+Clarinas,Corporate,20/07/2022,06/08/2022,17/08/2022,,High
+KTMG,Corporate,20/07/2022,,,,Low
+Keller Sports,E-Commerce,20/07/2022,24/07/2022,,,High
+Steva,Corporate,17/07/2022,,,31/07/2022,Low
+Sud Running,Wholesale,18/07/2022,,,11/08/2022,Low
+Sorali,Corporate,21/07/2022,08/08/2022,,,Low
+Trakker,Wholesale,21/07/2022,,,,Low
+Galleries Royal,Wholesale,21/07/2022,,,,Medium
+Société globale,Corporate,21/07/2022,,,,High
+Corvatsch & Pesko,Wholesale,21/07/2022,,,,Medium
+Kurer,Wholesale,21/07/2022,,,,High
+The Broken Army,Wholesale,19/07/2022,,,09/08/2022,Medium
+Trentotto,Wholesale,20/07/2022,,,17/08/2022,High
+Wanderlust,Corporate,21/07/2022,27/07/2022,01/08/2022,,Low
+Satnam,Wholesale,22/07/2022,23/07/2022,28/07/2022,,Low
+Sport,E-Commerce,22/07/2022,,,,High
+SPR Athlete Factory,Gym,22/07/2022,,,,Medium
+Agolu,Corporate,23/07/2022,,,,Low
+Go Sport,Wholesale,23/07/2022,,,,High
+Scape Shop Fontainebleau,,23/07/2022,,,,Medium
+All Troucks,E-Commerce,24/07/2022,,,,High
+KX,Gym,25/07/2022,10/08/2022,,,Medium
+Kutchui,Wholesale,21/07/2022,,,19/08/2022,High
+Steel,Wholesale,26/07/2022,31/07/2022,,,High
+La Garconnière,Wholesale,26/07/2022,,,,Medium
+YogaNest,Wholesale,26/07/2022,08/08/2022,16/08/2022,,High
+Staiou,E-Commerce,27/07/2022,,,,Low
+La Paranthèse,Gym,27/07/2022,,,,Low
+Sustainable Clothing,E-Commerce,28/07/2022,,,,High
+La Randonnée,Wholesale,04/08/2022,,,,Low
+Le Shop,Wholesale,04/08/2022,,,,Medium
+Sweat,Gym,05/08/2022,,,,Low
+Swedish Fit,Gym,05/08/2022,,,,Low
+Lorea,Corporate,05/08/2022,,,,High
+Terre Groupe,Wholesale,06/08/2022,13/08/2022,23/08/2022,,High
+LUISAVIA,E-Commerce,06/08/2022,16/08/2022,29/08/2022,,Medium
+Lunaru,Wholesale,06/08/2022,12/08/2022,27/08/2022,,Medium
+The Apartment,E-Commerce,07/08/2022,,,,Medium
+Titoloi,Wholesale,07/08/2022,,,,Medium
+Yoga Paris,Gym,07/08/2022,,,,High
+To Kyma,Wholesale,08/08/2022,,,,High
+Meeri,Corporate,08/08/2022,,,,Low
+Urioge,Corporate,21/07/2022,,,13/08/2022,Low
+A Few Store,E-Commerce,09/08/2022,,,,Medium
+Miintopa,E-Commerce,10/08/2022,,,,High
+XIV Running Montparnasse,Wholesale,25/07/2022,,,04/08/2022,Medium
+Mirroli,Corporate,11/08/2022,29/08/2022,,,Low
+TOP PERF CHANTILLY,,11/08/2022,,,,Medium
+Terre Happy Studio,Wholesale,12/08/2022,26/08/2022,,,Low
+Alpiniste,E-Commerce,12/08/2022,29/08/2022,,,Medium
+MobHouse,Gym,12/08/2022,,,,High
+Affelour,Corporate,13/08/2022,,,,High
+Amuse ,E-Commerce,13/08/2022,,,,Low
+Modo International,Gym,14/08/2022,,,,Low
+Modo Yoga,Gym,14/08/2022,,,,Low
+Anthologie,Wholesale,15/08/2022,31/08/2022,05/09/2022,,Medium
+Archive 1820,Wholesale,15/08/2022,03/09/2022,14/09/2022,,High
+Mr. Potter,E-Commerce,15/08/2022,,,,High
+Ken Group,Gym,16/08/2022,,,29/08/2022,High
+MyTheres,E-Commerce,16/08/2022,,,,Medium
+Kithees,Wholesale,17/08/2022,,,01/09/2022,Low
+Naos,Corporate,17/08/2022,02/09/2022,,,Low
+Neiwa,Wholesale,17/08/2022,,,,High
+The New You,Gym,18/08/2022,01/09/2022,,,High
+Athlérunning,Wholesale,18/08/2022,04/09/2022,,,Low
+Net A Porter,E-Commerce,18/08/2022,,,,High
+The Next Door,Wholesale,19/08/2022,21/08/2022,,,Low
+KM21,Wholesale,19/08/2022,,,07/09/2022,Low
+No Concept,E-Commerce,19/08/2022,,,,Low
+Ochir sport,E-Commerce,19/08/2022,,,,Low
+Korner,Gym,20/08/2022,,,31/08/2022,High
+Barry's,Gym,20/08/2022,22/08/2022,,,High
+Oiseas,E-Commerce,20/08/2022,,,,High
+The Studio,Gym,21/08/2022,30/08/2022,,,Medium
+L'exceptionnel,Wholesale,21/08/2022,07/09/2022,09/09/2022,,High
+On My Skiny,E-Commerce,22/08/2022,08/09/2022,,,High
+To Good,Corporate,23/08/2022,08/09/2022,,,Low
+Orangeade,Corporate,23/08/2022,,,,High
+Phenili,Corporate,23/08/2022,10/09/2022,,,Low
+Trail and the city,Wholesale,24/08/2022,13/09/2022,,,High
+BHR,Wholesale,24/08/2022,31/08/2022,,,High
+Psyclou,Gym,24/08/2022,05/09/2022,,,Medium
+Punch Studio,Gym,24/08/2022,12/09/2022,,,Medium
+United Brand,Gym,25/08/2022,06/09/2022,,,High
+United Runner,Corporate,25/08/2022,09/09/2022,,,High
+Qee,Wholesale,25/08/2022,,,,High
+BXR,Gym,26/08/2022,,,,Medium
+Aspria,Gym,27/08/2022,,,,Medium
+Qoqar,E-Commerce,27/08/2022,,,,High
+La Source,Gym,23/07/2022,,,16/08/2022,High
+Rebel,Gym,28/08/2022,13/09/2022,,,Low
+Cap Running,Wholesale,29/08/2022,,,,Low
+Rocycle,Gym,29/08/2022,10/09/2022,,,Medium
+Campz,E-Commerce,30/08/2022,,,,High
+Royalcheese,Wholesale,30/08/2022,,,,Medium
+Rrunning,Wholesale,30/08/2022,,,,High
+Lullu,Wholesale,24/07/2022,,,17/08/2022,Medium
+Lunaria,Wholesale,25/07/2022,,,27/07/2022,Low
+Running Marseille,Wholesale,31/08/2022,,,,Medium
+Running Lille,Wholesale,31/08/2022,15/09/2022,,,Low
+Jogging,Wholesale,25/07/2022,,,24/08/2022,High
+L'Usinage,Gym,29/07/2022,,,10/08/2022,Medium
+Le Vieux,Wholesale,20/08/2022,31/08/2022,09/09/2022,,High
+La Haute Route,Wholesale,20/08/2022,,,03/09/2022,High
+Be Cycle,Gym,21/08/2022,,,,Low
+Bilocca,E-Commerce,21/08/2022,,,,Low
+Canvas,Wholesale,22/08/2022,,,,Medium
