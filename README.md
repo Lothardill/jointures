@@ -1,6 +1,14 @@
 # Jointures en SQL
 
-intro a mettre ici
+Ce dépôt regroupe une série d’exercices pratiques sur l’utilisation des jointures et transformations SQL dans un contexte métier (logistique, ventes, marketing, data quality, funnel commercial, etc.).
+
+L’objectif est de développer une maîtrise progressive des principales notions SQL :
+- Requêtes de base (sélection, filtres, conditions, agrégations simples)
+- Jointures (INNER JOIN, LEFT JOIN, RIGHT JOIN, USING, ON) pour combiner plusieurs tables
+- Tests de qualité des données pour valider l’intégrité et la cohérence des jeux de données
+- Enrichissement et calcul d’indicateurs clés (KPIs logistiques, commerciaux et financiers)
+- Analyses métier : suivi des expéditions, funnel commercial, performances de ventes, etc.
+
 Chaque partie correspond à une compétence ou une notion particulière, et contient les fichiers SQL et jeux de données associés.
 
 ## Partie 1 – Jointure de base
