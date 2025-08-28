@@ -1,0 +1,4 @@
+priority,nb_parcel,shipping_time,delivery_time,total_time,delay_rate
+High,29,1.89,2.0,4.0,0.05
+Low,8,2.71,2.0,4.71,0.29
+Medium,12,1.92,2.33,4.0,0.17

@@ -1,0 +1,50 @@
+parcel_id,parcel_tracking,transporter,priority,date_purchase,date_shipping,date_delivery,date_cancelled,month_purchase,status,shipping_time,delivery_time,total_time,delay
+1001,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277744,colissimo,High,2022-04-06,2022-04-08,2022-04-09,,4,Delivered,2.0,1.0,3.0,0.0
+1002,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277745,colissimo,Medium,2022-04-07,2022-04-10,,2022-04-15,4,Cancelled,3.0,,,
+1003,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277746,colissimo,High,2022-04-08,2022-04-10,2022-04-13,,4,Delivered,2.0,3.0,5.0,0.0
+1004,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277747,colissimo,Low,2022-05-25,2022-05-28,2022-05-30,,5,Delivered,3.0,2.0,5.0,0.0
+1005,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277748,colissimo,Low,2022-06-01,2022-06-05,2022-06-08,,6,Delivered,4.0,3.0,7.0,1.0
+1006,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277749,colissimo,High,2022-06-02,2022-06-04,2022-06-06,,6,Delivered,2.0,2.0,4.0,0.0
+1007,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277750,colissimo,High,2022-06-03,2022-06-04,2022-06-06,,6,Delivered,1.0,2.0,3.0,0.0
+1008,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277751,colissimo,Medium,2022-06-03,2022-06-04,2022-06-06,,6,Delivered,1.0,2.0,3.0,0.0
+1009,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277752,colissimo,High,2022-06-03,2022-06-04,2022-06-07,,6,Delivered,1.0,3.0,4.0,0.0
+1010,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277753,colissimo,Medium,2022-06-16,2022-06-17,2022-06-19,,6,Delivered,1.0,2.0,3.0,0.0
+1011,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277754,colissimo,High,2022-06-17,2022-06-19,2022-06-21,,6,Delivered,2.0,2.0,4.0,0.0
+1012,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277755,colissimo,High,2022-06-23,2022-06-26,2022-06-28,,6,Delivered,3.0,2.0,5.0,0.0
+1013,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277756,colissimo,High,2022-06-23,2022-06-27,2022-06-29,,6,Delivered,4.0,2.0,6.0,1.0
+1014,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277757,colissimo,Low,2022-06-23,2022-06-25,2022-06-27,,6,Delivered,2.0,2.0,4.0,0.0
+1015,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277758,colissimo,High,2022-06-23,2022-06-25,,2022-07-02,6,Cancelled,2.0,,,
+1016,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277759,colissimo,High,2022-06-23,2022-06-25,2022-06-27,,6,Delivered,2.0,2.0,4.0,0.0
+1017,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277760,colissimo,High,2022-07-14,2022-07-16,2022-07-17,,7,Delivered,2.0,1.0,3.0,0.0
+1018,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277761,colissimo,Medium,2022-07-15,2022-07-17,2022-07-19,,7,Delivered,2.0,2.0,4.0,0.0
+1019,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277762,colissimo,High,2022-07-16,2022-07-18,2022-07-20,,7,Delivered,2.0,2.0,4.0,0.0
+1020,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277763,colissimo,High,2022-07-22,2022-07-24,,2022-08-10,7,Cancelled,2.0,,,
+1021,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277764,colissimo,Low,2022-07-22,2022-07-26,2022-07-28,,7,Delivered,4.0,2.0,6.0,1.0
+1022,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277765,colissimo,High,2022-07-25,2022-07-26,2022-07-29,,7,Delivered,1.0,3.0,4.0,0.0
+1023,https://www.ups.com/WebTracking/processInputRequest?tracknum=1Z0W264A0433253204&loc=fr_FR,colissimo,High,2022-07-25,2022-07-26,,,7,In Transit,1.0,,,
+1024,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277762,colissimo,High,2022-08-05,2022-08-07,2022-08-09,,8,Delivered,2.0,2.0,4.0,0.0
+1025,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277763,colissimo,Medium,2022-08-05,2022-08-07,2022-08-13,,8,Delivered,2.0,6.0,8.0,1.0
+1026,https://www.ups.com/WebTracking/processInputRequest?tracknum=1Z0W264A6836860325&loc=fr_FR,ups,High,2022-08-05,2022-08-07,2022-08-09,,8,Delivered,2.0,2.0,4.0,0.0
+1027,https://www.ups.com/WebTracking/processInputRequest?tracknum=1Z0W264A6812985094&loc=fr_FR,ups,High,2022-08-05,2022-08-07,2022-08-09,,8,Delivered,2.0,2.0,4.0,0.0
+1028,https://www.ups.com/WebTracking/processInputRequest?tracknum=1Z0W264A6839429939&loc=fr_FR,ups,High,2022-08-05,2022-08-07,2022-08-09,,8,Delivered,2.0,2.0,4.0,0.0
+1029,https://www.ups.com/WebTracking/processInputRequest?tracknum=1Z0W264A6807664888&loc=fr_FR,ups,Low,2022-08-05,2022-08-07,2022-08-08,,8,Delivered,2.0,1.0,3.0,0.0
+1030,https://www.ups.com/WebTracking/processInputRequest?tracknum=1Z0W264A6803768274&loc=fr_FR,ups,High,2022-08-05,2022-08-07,2022-08-08,,8,Delivered,2.0,1.0,3.0,0.0
+1031,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277762,colissimo,Medium,2022-08-06,2022-08-08,2022-08-09,,8,Delivered,2.0,1.0,3.0,0.0
+1032,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277763,colissimo,High,2022-08-26,2022-08-28,2022-08-30,,8,Delivered,2.0,2.0,4.0,0.0
+1033,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277764,colissimo,Medium,2022-08-26,2022-08-28,2022-08-29,,8,Delivered,2.0,1.0,3.0,0.0
+1034,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277765,colissimo,High,2022-08-26,2022-08-28,2022-08-30,,8,Delivered,2.0,2.0,4.0,0.0
+1035,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277766,colissimo,Low,2022-08-29,2022-08-31,2022-09-02,,8,Delivered,2.0,2.0,4.0,0.0
+1036,https://www.ups.com/WebTracking/processInputRequest?tracknum=1Z0W264A6819701850&loc=fr_FR,colissimo,Low,2022-08-29,2022-08-31,2022-09-02,,8,Delivered,2.0,2.0,4.0,0.0
+1037,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277762,colissimo,High,2022-08-30,2022-09-01,2022-09-03,,8,Delivered,2.0,2.0,4.0,0.0
+1038,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277763,colissimo,High,2022-08-31,2022-09-02,2022-09-04,,8,Delivered,2.0,2.0,4.0,0.0
+1039,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277764,colissimo,Medium,2022-09-07,2022-09-10,,,9,In Transit,3.0,,,
+1040,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277765,colissimo,High,2022-09-09,2022-09-10,,,9,In Transit,1.0,,,
+1041,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277766,colissimo,High,2022-09-09,2022-09-10,,,9,In Transit,1.0,,,
+1042,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277767,colissimo,Medium,2022-09-09,2022-09-11,,,9,In Transit,2.0,,,
+1043,https://www.ups.com/WebTracking/processInputRequest?tracknum=1Z0W264A6808017950&loc=fr_FR,ups,High,2022-09-09,2022-09-12,,,9,In Transit,3.0,,,
+1044,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277762,colissimo,Medium,2022-09-09,2022-09-11,,,9,In Transit,2.0,,,
+1045,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277763,colissimo,Medium,2022-09-14,2022-09-16,,,9,In Transit,2.0,,,
+1046,https://www.ups.com/WebTracking/processInputRequest?tracknum=1Z0W264A6811916375&loc=fr_FR,ups,High,2022-09-15,2022-09-16,,,9,In Transit,1.0,,,
+1047,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277762,colissimo,Medium,2022-09-15,2022-09-16,,,9,In Transit,1.0,,,
+1048,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277763,colissimo,Low,2022-09-16,,,,9,In Progress,,,,
+1049,https://www.colissimo.fr/entreprise/colis/login?sid=07b5b5cdb5da7611055460146bdbb679&cab=9C00474277764,colissimo,High,2022-09-19,,,,9,In Progress,,,,
