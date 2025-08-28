@@ -36,3 +36,13 @@ Objectif : analyser et enrichir des données du funnel commercial afin de suivre
 Fichiers :
 - `4-sales_funnel_analysis.sql` : requêtes SQL pour explorer et enrichir les données du funnel (stages, taux, délais).
 - `4-sales_funnel.csv` : dataset.
+
+## Partie 5 – Analyse des ventes
+
+Objectif : analyser les ventes (commandes, clients, produits) afin de calculer des agrégats clés par catégorie et sous-catégorie, et d’identifier les segments générateurs de chiffre d’affaires.
+
+Fichiers :
+- `5-sales_analysis.sql` : requêtes SQL permettant d’explorer les ventes, calculer des KPIs (commandes, clients, CA, coûts, quantités) et analyser les catégories de produits.
+- `5-sales_sample.csv` : échantillon de 2 000 lignes extrait du dataset complet afin de rester compatible avec GitHub.
+
+⚠️ Le dataset complet (~50 Mo) n’est pas versionné pour des raisons de taille. Cet échantillon est fourni pour la démonstration, mais toutes les requêtes du script SQL sont applicables à l’intégralité du jeu de données.
