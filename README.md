@@ -19,3 +19,12 @@ Fichiers :
 
 - `2-data_quality_tests.sql` : requêtes SQL de test (unicité des clés, valeurs nulles, contraintes métiers).
 - `2-stock_raw.csv`, `2-stock_catalog.csv`, `2-stock_kpi.csv`, `2-sales_daily.csv` : datasets.
+
+## Partie 3 – Analyse logistique des expéditions
+
+Objectif : analyser et enrichir des données d’expédition afin de calculer des statuts, délais et indicateurs logistiques clés (temps de préparation, temps de livraison, taux de retard).
+
+Fichiers :
+
+- `3-shipments_analysis.sql` : requêtes SQL pour transformer les données brutes en tables enrichies (statuts, délais, KPIs).
+- `3-shipments.csv`, `3-shipments_products.csv`, `3-shipments_enriched.csv`, `3-shipments_overview.csv`, `3-shipments_by_carrier.csv`, `3-shipments_by_priority.csv`, `3-shipments_by_month` : datasets.
